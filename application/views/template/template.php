@@ -88,9 +88,9 @@ endif;
     <div class="centercontent">
     
         <div class="pageheader">
-            <h1 class="pagetitle">Page Title</h1>
+            <h1 class="pagetitle"><?php echo $header;?></h1>
             <span class="pagedesc" style="display:none">Page Desc</span>
         </div><!--pageheader-->
         
         <div id="contentwrapper" class="contentwrapper">
-		<?php //$this->load->view($page);?>
+		<?php $this->load->view($page);?>
