@@ -1,0 +1,107 @@
+@media all {
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		letter-spacing: 0.02em;
+		line-height:1.7em;
+	}
+	table.grid {
+		/*border:1px solid #666;
+		border-collapse: collapse;*/
+		width:950px;
+	}
+	table.grid thead {
+		background:#3f3f3f;
+		color:#fff;
+	}
+	table.grid th {
+		padding: 5px;
+		border:1px solid #666;
+	}
+	table.grid td {
+		padding: 5px;
+		border:1px solid #666;
+		border-collapse: collapse;
+	}
+	table.grid tfoot {
+		background: #c8c8c8;
+	}
+	.nomer {
+		width:28px;
+	}
+	h1 {
+		text-transform:uppercase;
+	}
+	div.r-head{
+		position:relative;
+		top:0;
+		left:0;
+	}
+	p.r-head-date {
+		font-size: 9px;
+		position:absolute;
+		top:0;
+		right:20px;
+	}
+	dt {
+		float:left;
+		width:100px;
+	}
+	table.grid tr.title {
+		background:#fff;
+		border-top:none;
+		border-left:none;
+		border-right:none;
+		color:#000;
+	}
+	table.grid tr.title td {
+		border-top:none;
+		border-left:none;
+		border-right:none;
+	}
+	table.grid table.tabelfilter, table.grid table.tabelfilter tr, table.grid table.tabelfilter td {
+		border:none;
+	}
+}
+
+@media screen {
+	.r-h-print {
+		margin-bottom:15px;
+	}
+	.r-f-print {
+		margin:15px 0;
+	}
+	
+	/*iconize*/
+	a.print, a.print:active, a.print:visited, a.print:hover,
+	a.export-word, a.export-word:active, a.export-word:visited, a.export-word:hover,
+	a.export-excel, a.export-excel:active, a.export-excel:visited, a.export-excel:hover {
+		width:40px;
+		line-height:16px;
+		text-decoration:none;
+		padding:1px 6px 2px 16px;
+		margin:0 2px;
+	}
+	a.print, a.print:active, a.print:visited, a.print:hover{background: #fff url(images/icons/printer.gif) no-repeat; border:1px solid #ccc; text-transform: lowercase; font-size: 9px; font-weight: bold; padding:4px 0 4px 16px !important; padding:0 0 0 16px; background-position: 2px 2px !important; background-position: 3px 3px; color:#666}
+	a.print span {margin:1px; padding:3px 4px; background: url(images/bgtombolhover.gif) 0 -6px repeat-x}
+	a.print:hover {color: #369}
+	a.print:hover span {background: url(images/bgtombol.gif) 0 -6px repeat-x}
+	
+	a.export-word, a.export-word:active, a.export-word:visited, a.export-word:hover{background: #fff url(images/icons/ms-word2.png) no-repeat; border:1px solid #ccc; text-transform: lowercase; font-size: 9px; font-weight: bold; padding:4px 0 4px 16px !important; padding:0 0 0 16px; background-position: 2px 2px !important; background-position: 3px 3px; color:#666}
+	a.export-word span {margin:1px; padding:3px 4px; background: url(images/bgtombolhover.gif) 0 -6px repeat-x}
+	a.export-word:hover {color: #369}
+	a.export-word:hover span {background: url(images/bgtombol.gif) 0 -6px repeat-x}
+	
+	a.export-excel, a.export-excel:active, a.export-excel:visited, a.export-excel:hover{background: #fff url(images/icons/ms-excel2.jpg) no-repeat; border:1px solid #ccc; text-transform: lowercase; font-size: 9px; font-weight: bold; padding:4px 0 4px 16px !important; padding:0 0 0 16px; background-position: 2px 2px !important; background-position: 3px 3px; color:#666}
+	a.export-excel span {margin:1px; padding:3px 4px; background: url(images/bgtombolhover.gif) 0 -6px repeat-x}
+	a.export-excel:hover {color: #369}
+	a.export-excel:hover span {background: url(images/bgtombol.gif) 0 -6px repeat-x}
+}
+@media print {
+	.r-h-print {
+		display:none;
+	}
+	.r-f-print {
+		display:none;
+	}
+}
