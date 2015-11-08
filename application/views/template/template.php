@@ -8,7 +8,7 @@ error_reporting(0);
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title><?="OPERATION"?> | FINLOGSS &raquo; INFORMATION LOGISTIC SINERGY SYSTEM</title>
+	<title><?="OPERATION"?> | MINDA-ERP &raquo; INTEGRATED SUPPORT SYSTEM</title>
 	<link href="favicon.png" rel="shortcut icon" />
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/styles/style.default.css" type="text/css" />
 	<script type="text/javascript" src="<?php echo base_url();?>assets/js/plugins/jquery-1.7.min.js"></script>
@@ -38,9 +38,9 @@ error_reporting(0);
 		</div><!--userinfo-->
 	
         <div class="left">
-            <h1 class="logo">OPERATION.<span>FINLOGSS</span></h1>
+            <h1 class="logo">PROCUREMENT.<span>MINDA-ERP</span></h1>
             <br clear="all" />
-            <span class="slogan">Information Logistic Sinergy System</span>
+            <span class="slogan">Procurement Integrated Console</span>
             
         </div><!--left-->
         

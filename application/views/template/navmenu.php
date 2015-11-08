@@ -1,19 +1,28 @@
 <li><a href="index.php" class="widgets">Dashboard</a></li>
-				<li><a href="salescommitmen.php" class="widgets1">Sales Commitmen</a></li>
+				<!--li><a href="salescommitmen.php" class="widgets1">Purchase Order</a></li-->
 				
-				<li><a href="#support" class="support">Air Freight</a>
+				<li><a href="#support" class="widgets1">Purchase Order</a>
 					<span class="arrow"></span>
 					<ul id="support">
-						<li><a href="airfreightexport.php">Export</a></li>
-						<li><a href="airfreightcntafe.php">Credit Note AFE</a></li>
-						<li><a href="airfreightimport.php">Import</a></li>
-						<li><a href="airfreightcntafi.php">Credit Note AFI</a></li>
-						<li><a href="airfreightconsol.php">Consol</a></li>
-						<li><a href="airfreightcntafc.php">Credit Note AFC</a></li>
+						<!--li>
+							<a href="#support-c">Create</a>
+								<span class="arrow"></span>
+								<ul id="support-c">
+									<li><a href="#">Create Vendor Supplying Plant</a></li>
+									<li><a href="#">Create Vendor Unknown</a></li>
+								</ul>
+						</li-->
+						<li><a href="<?=base_url()?>v_procurement/c_po">Create</a></li>
+						<li><a href="#">Create Vendor Unknown</a></li>
+						<li><a href="#">Credit Note AFE</a></li>
+						<li><a href="#">Import</a></li>
+						<li><a href="#">Credit Note AFI</a></li>
+						<li><a href="#">Consol</a></li>
+						<li><a href="#">Credit Note AFC</a></li>
 					</ul>
 				</li>
 
-				<li><a href="#support1" class="support">Sea Freight</a>
+				<li><a href="#support1" class="support">Purchase Requisition</a>
 					<span class="arrow"></span>
 					<ul id="support1">
 						<li><a href="seafreightexport.php">Export</a></li>
@@ -25,7 +34,7 @@
 					</ul>
 				</li>
 
-				<li><a href="#support2" class="support">Domestic</a>
+				<li><a href="#support2" class="support">Contract</a>
 					<span class="arrow"></span>
 					<ul id="support2">
 						<li><a href="domesticoutgoing.php">Outgoing</a></li>
@@ -35,7 +44,7 @@
 					</ul>
 				</li>
 
-				<li><a href="#support3" class="support">Accounting</a>
+				<li><a href="#support3" class="support">RFQ / Quotation</a>
 					<span class="arrow"></span>
 					<ul id="support3">
 						<li><a href="accountingadvpm.php">Advance Payment</a></li>
@@ -45,9 +54,9 @@
 					</ul>
 				</li>
 
-				<li><a href="eslip.php" class="support">eSlip</a></li>
+				<li><a href="eslip.php" class="support">Master Data</a></li>
 
-				<li><a href="#support4" class="support">TPS</a></li>
+				<li><a href="#support4" class="support">Report</a></li>
 					<span class="arrow"></span>
 					<ul id="support4">
 						<li><a href="tpscustomer.php">New Customer</a></li>
